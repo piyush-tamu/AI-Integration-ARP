@@ -10,6 +10,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.metrics import classification_report
 
 # 1. Load dataset
+# Data: https://www.kaggle.com/datasets/uom190346a/disease-symptoms-and-patient-profile-dataset/data
 df = pd.read_csv('./data.csv')  # Replace with your actual dataset file
 
 # 2. Define numerical and categorical features
