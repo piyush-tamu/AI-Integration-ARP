@@ -1,6 +1,7 @@
 # Import necessary libraries
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
@@ -10,7 +11,6 @@ from sklearn.compose import ColumnTransformer
 from sklearn.metrics import classification_report
 
 # 1. Load dataset
-# Data: https://www.kaggle.com/datasets/uom190346a/disease-symptoms-and-patient-profile-dataset/data
 df = pd.read_csv('./data.csv')  # Replace with your actual dataset file
 
 # 2. Define numerical and categorical features
@@ -85,7 +85,35 @@ y_pred = best_model.predict(X_test)
 print("\nOptimized Model Performance:")
 print(classification_report(y_test, y_pred))
 
-# 14. Function to predict disease for new patients
+# 14. Feature Importance Analysis
+def feature_importance(model, preprocessor):
+    # Extract trained RandomForestClassifier
+    rf_model = model.named_steps['classifier']
+
+    # Get feature names from preprocessor
+    numeric_features = NUMERICAL_FEATURES
+    categorical_features = preprocessor.named_transformers_['cat'].named_steps['onehot'].get_feature_names_out(CATEGORICAL_FEATURES)
+
+    # Combine all feature names
+    feature_names = list(numeric_features) + list(categorical_features)
+
+    # Get feature importances
+    feature_importances = rf_model.feature_importances_
+
+    # Create DataFrame for visualization
+    importance_df = pd.DataFrame({'Feature': feature_names, 'Importance': feature_importances})
+
+    # Sort features by importance
+    importance_df = importance_df.sort_values(by='Importance', ascending=False)
+
+    # Print feature importances
+    print("\nFeature Importances:")
+    print(importance_df)
+
+# Call the function to plot feature importance
+feature_importance(best_model, best_model.named_steps['preprocessor'])
+
+# 15. Function to predict disease for new patients
 def predict_disease(model, input_data):
     # Convert input dictionary to DataFrame
     input_df = pd.DataFrame([input_data])
@@ -97,18 +125,12 @@ def predict_disease(model, input_data):
     prediction = model.predict(input_df)  # Returns an encoded class (integer index)
 
     # Convert numerical prediction back to disease name
-    # Since prediction is now a single index, we find the original class name
-    # we have to access the categories in the encoder to find the name of the class
-    
-    # Get the category names, which was the original labels of the 'Disease' column
     disease_categories = disease_encoder.categories_[0]
     
-    # Use the index from prediction to get corresponding category name
+    # Get disease name from predicted index
     disease_name = disease_categories[prediction[0]]
     
     return disease_name
-
-
 
 # Example prediction (Replace with actual patient data)
 sample_input = {
