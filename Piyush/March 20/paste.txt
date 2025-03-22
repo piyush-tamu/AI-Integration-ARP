@@ -1,0 +1,293 @@
+[
+    {
+        "disease": "Pyoderma",
+        "symptoms": {
+            "pustules": "95%",
+            "redness": "90%",
+            "itching": "80%",
+            "hair_loss": "70%",
+            "allergies": "60%",
+            "skin_infection": "100%"
+        }
+    },
+    {
+        "disease": "Gastric Dilatation-Volvulus (GDV)",
+        "symptoms": {
+            "distended_abdomen": "98%",
+            "unproductive_vomiting": "95%",
+            "restlessness": "90%",
+            "rapid_breathing": "92%",
+            "collapse": "75%"
+        }
+    },
+    {
+        "disease": "Chronic Kidney Disease",
+        "symptoms": {
+            "increased_thirst": "90%",
+            "frequent_urination": "90%",
+            "weight_loss": "80%",
+            "vomiting": "65%",
+            "lethargy": "75%",
+            "bad_breath": "65%"
+        }
+    },
+    {
+        "disease": "Liver Disease",
+        "symptoms": {
+            "jaundice": "75%",
+            "vomiting": "65%",
+            "diarrhea": "55%",
+            "lethargy": "75%",
+            "weight_loss": "65%",
+            "abdominal_swelling": "55%"
+        }
+    },
+    {
+        "disease": "Cataracts",
+        "symptoms": {
+            "cloudy_eyes": "100%",
+            "vision_loss": "80%",
+            "clumsiness": "50%"
+        }
+    },
+    {
+        "disease": "Glaucoma",
+        "symptoms": {
+            "redness": "85%",
+            "pain": "90%",
+            "cloudy_eyes": "70%",
+            "vision_loss": "80%",
+            "eye_pressure": "100%"
+        }
+    },
+    {
+        "disease": "Cherry Eye",
+        "symptoms": {
+            "red_eye_mass": "100%"
+        }
+    },
+    {
+        "disease": "Dental Disease",
+        "symptoms": {
+            "bad_breath": "95%",
+            "drooling": "60%",
+            "difficulty_eating": "70%",
+            "tooth_loss": "55%",
+            "gum_inflammation": "90%"
+        }
+    },
+    {
+        "disease": "Obesity",
+        "symptoms": {
+            "excessive_weight": "100%",
+            "difficulty_exercising": "85%",
+            "lethargy": "70%"
+        }
+    },
+    {
+        "disease": "Cancer (Various Types)",
+        "symptoms": {
+            "lumps": "70%",
+            "weight_loss": "60%",
+            "lethargy": "70%",
+            "loss_of_appetite": "60%",
+            "bleeding": "40%"
+        }
+    },
+    {
+        "disease": "Hemangiosarcoma",
+        "symptoms": {
+            "weakness": "75%",
+            "collapse": "65%",
+            "pale_gums": "85%",
+            "abdominal_swelling": "55%",
+            "sudden_death": "35%"
+        }
+    },
+    {
+        "disease": "Osteosarcoma",
+        "symptoms": {
+            "lameness": "90%",
+            "swelling": "85%",
+            "pain": "95%",
+            "fractures": "305%"
+        }
+    },
+    {
+        "disease": "Lymphoma",
+        "symptoms": {
+            "swollen_lymph_nodes": "95%",
+            "lethargy": "80%",
+            "weight_loss": "70%",
+            "vomiting": "50%",
+            "diarrhea": "50%"
+        }
+    },
+    {
+        "disease": "Mast Cell Tumors",
+        "symptoms": {
+            "skin_lumps": "100%",
+            "redness": "75%",
+            "itching": "80%",
+            "gastrointestinal_ulcers": "30%"
+        }
+    },
+    {
+        "disease": "Bladder Stones",
+        "symptoms": {
+            "straining_to_urinate": "90%",
+            "blood_in_urine": "85%",
+            "frequent_urination": "80%",
+            "pain": "80%"
+        }
+    },
+    {
+        "disease": "Urinary Tract Infection",
+        "symptoms": {
+            "frequent_urination": "90%",
+            "straining_to_urinate": "80%",
+            "blood_in_urine": "70%",
+            "licking_genital_area": "75%"
+        }
+    },
+    {
+        "disease": "Pyometra",
+        "symptoms": {
+            "lethargy": "85%",
+            "vomiting": "60%",
+            "increased_thirst": "80%",
+            "vaginal_discharge": "95%",
+            "abdominal_swelling": "65%"
+        }
+    },
+    {
+        "disease": "Prostatic Disease",
+        "symptoms": {
+            "difficulty_urinating": "80%",
+            "blood_in_urine": "60%",
+            "straining_to_defecate": "50%",
+            "lethargy": "65%"
+        }
+    },
+    {
+        "disease": "Testicular Tumors",
+        "symptoms": {
+            "swollen_testicles": "95%",
+            "abdominal_swelling": "30%",
+            "hormonal_changes": "60%"
+        }
+    },
+    {
+        "disease": "Anal Sac Disease",
+        "symptoms": {
+            "scooting": "90%",
+            "licking_biting_rear": "85%",
+            "foul_odor": "95%",
+            "swollen_anus": "75%"
+        }
+    },
+    {
+        "disease": "Inflammatory Bowel Disease",
+        "symptoms": {
+            "chronic_vomiting": "75%",
+            "diarrhea": "85%",
+            "weight_loss": "70%",
+            "lethargy": "70%"
+        }
+    },
+    {
+        "disease": "Colitis",
+        "symptoms": {
+            "diarrhea": "90%",
+            "straining_to_defecate": "85%",
+            "urgency": "80%"
+        }
+    },
+    {
+        "disease": "Gastroenteritis",
+        "symptoms": {
+            "vomiting": "85%",
+            "diarrhea": "85%",
+            "lethargy": "75%",
+            "abdominal_pain": "70%"
+        }
+    },
+    {
+        "disease": "Food Allergies",
+        "symptoms": {
+            "itching": "80%",
+            "skin_infection": "60%",
+            "ear_infection": "50%",
+            "gastrointestinal_upset": "70%"
+        }
+    },
+    {
+        "disease": "Flea Allergy Dermatitis",
+        "symptoms": {
+            "itching": "95%",
+            "hair_loss": "80%",
+            "redness": "85%",
+            "skin_infection": "70%"
+        }
+    },
+    {
+        "disease": "Tick-Borne Diseases",
+        "symptoms": {
+            "fever": "70%",
+            "lethargy": "75%",
+            "joint_pain": "65%",
+            "lameness": "60%",
+            "anemia": "50%"
+        }
+    },
+    {
+        "disease": "Fungal Infections",
+        "symptoms": {
+            "skin_lesions": "80%",
+            "hair_loss": "60%",
+            "coughing": "50%",
+            "fever": "55%",
+            "lethargy": "65%"
+        }
+    },
+    {
+        "disease": "Bacterial Infections",
+        "symptoms": {
+            "fever": "80%",
+            "lethargy": "80%",
+            "localized_swelling": "70%",
+            "redness": "75%",
+            "discharge": "70%"
+        }
+    },
+    {
+        "disease": "Viral Infections",
+        "symptoms": {
+            "fever": "75%",
+            "lethargy": "80%",
+            "coughing": "65%",
+            "nasal_discharge": "70%",
+            "gastrointestinal_upset": "60%"
+        }
+    },
+    {
+        "disease": "Heatstroke",
+        "symptoms": {
+            "excessive_panting": "95%",
+            "drooling": "85%",
+            "vomiting": "70%",
+            "diarrhea": "60%",
+            "collapse": "80%",
+            "seizures": "50%"
+        }
+    },
+    {
+        "disease": "Frostbite",
+        "symptoms": {
+            "pale_blue_skin": "90%",
+            "swelling": "80%",
+            "pain": "75%",
+            "tissue_necrosis": "60%"
+        }
+    }
+]
